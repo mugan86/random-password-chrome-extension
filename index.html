@@ -5,8 +5,6 @@
     <title>Random Password Generator</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-
 </head>
 
 <body>
@@ -17,11 +15,13 @@
         <input type="text" name="" placeholder="Create password" id="password" readonly>
         <table>
             <th>
-                <div id="button" class="btn1" onclick="genPassword()">Generate</div>
+                <div class="button btn1" id="genPasswordElement">Generate</div>
             </th>
-            <th><a id="button" class="btn2" onclick="copyPassword()">Copy</a></th>
+            <th><a class="button btn2" id="copyPasswordElement">Copy</a></th>
         </table>
     </div>
+
 </body>
+<script src="script.js"></script>
 
 </html>
