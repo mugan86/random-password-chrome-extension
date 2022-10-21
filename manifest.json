@@ -1,0 +1,11 @@
+{
+    "name": "Random Password Generator",
+    "version": "1.0.0",
+    "description": "Generate and Copy to Clipboard random passwords",
+    "manifest_version": 3,
+    "author": "Anartz Mugika Ledo",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Random Password Generator"
+    }
+}
